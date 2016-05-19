@@ -121,6 +121,7 @@ class Wxapi {
      */     
     public function great_rand(){
         $str = '1234567890abcdefghijklmnopqrstuvwxyz';
+		$t1 = "";
         for($i=0;$i<30;$i++){
             $j=rand(0,35);
             $t1 .= $str[$j];
